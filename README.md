@@ -10,6 +10,3 @@ TODO:
  - Create new dashboard to control light and display current status
  - Fix DHCP server
  - Make pretty
- - 
-
-
