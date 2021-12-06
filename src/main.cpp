@@ -13,8 +13,8 @@
 WiFiClient espClient;
 MQTTClient client;
 
-const char* mSub = "mqtt/subscribe";
-const char* mPub = "mqtt/publish";
+const char* mSub = "mqtt/subscribe/cmd"; //Make sure you subscribe to the topic your controller is publishing to!
+const char* mPub = "mqtt/publish/response"; // Publish to the topic your controller is subscribed to!
 const char* mqttURL = "mqtt.maker2maker.com";
 const char* userName = "your_username";
 const char* mqttPass = "your_password";
